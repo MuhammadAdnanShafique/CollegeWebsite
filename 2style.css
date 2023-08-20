@@ -1,0 +1,158 @@
+body{
+    background-color:#f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(15, 77, 107);
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 14px 16px ;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+li a:hover{
+    background-color:blue;
+}
+.img{
+    background-image: url(2.webp);
+    background-repeat: no-repeat, repeat;
+    height: 400px;
+    background-position: center;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+}
+.heading{
+    margin-top: 15%;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+.CARD{
+    border: none;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.CARD-BODY{
+    padding-bottom: -30px;
+background-color: white;
+}
+.CARD-TITLE{
+    /* margin-bottom: 70px; */
+    font-size: x-large;
+    width: 900;
+    font-family:AlQalam Amjad Alvi;
+}
+.BTN{
+    font-size: small;
+    margin-bottom: -16px;
+    margin-right: -16px;
+    text-align: center;
+    float: right;
+    color: black;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 0;
+    transition: .5s;
+}
+.BTN:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+.Headng{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: blueviolet;
+}
+.headng{
+    /* display: block; */
+    padding-top:40px;
+    font-size: 60px;
+    font-family:Aleem Urdu Unicode;
+    width: 900;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+}
+.CARD1{ 
+    
+    margin-bottom: 20px;
+    /* border-radius: 0px; */
+    padding: 20px;
+    border:solid 1px rgb(5, 88, 130); 
+    background-color: white;
+}
+.CARD-TITLE1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-align: center;
+    font-size: x-large;
+    font-family:AlQalam Amjad Alvi;
+}
+.paragraf{
+    font-size: 17px;
+    text-align: justify;
+}
+.ROW1{
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+}
+/* contect */
+.BROCKWAY{
+    padding: 8%;
+    background-color:#e7eef3;
+}
+.content{
+    padding: 50px;
+    background-color:#f4f6f8;
+}
+.BTN1{
+    padding: 5px 20px;
+    font-size: x-large;
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    color: black;
+    background-color: white;
+    border: 1px solid red;
+    /* border-radius: 0; */
+    transition: .5ss;
+}
+.BTN1:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid rgb(212, 0, 0);
+}
+/* fotter */
+
+.ROW3{
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+    height: 280px;
+    background-color: rgb(15, 77, 107);
+}
+.ROW2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:white;
+}
+.fotter{
+    font-size: 20px;
+    color:rgb(15, 77, 107);
+}

@@ -1,0 +1,140 @@
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(15, 77, 107);
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 14px 16px ;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+li a:hover{
+    background-color:blue;
+}
+
+.d1{
+    padding-top: 150px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(3.webp);
+}
+.d1 h1{
+    color:white ;
+    text-align: center;
+}
+.heading{
+    /* margin-top: 30px; */
+padding-left: 100px;
+padding-right: 100px;
+}
+.heading h1{
+    color:rgb(15, 77, 107);
+    text-align: center;
+    font-size: 80px;
+}
+.heading p{
+    color:rgb(15, 77, 107);
+    text-align: center;
+}
+.ROW8{
+    padding: 80px;
+}
+/* .CARD-BODY1{
+    background-color: aqua;
+    height: 200px;
+} */
+.CARD-BODY1 h1{
+    /* background-color: aqua; */
+    font-size: 40px;
+
+}
+.CRDBODY{ 
+    /* margin-top: 20px; */
+    background-color:white;
+    margin: 10px;
+    border: none;
+}
+.CARD1{ 
+    margin: 20px;
+    /* border-radius: 0px; */
+    padding: 20px;
+    border:solid 1px rgb(5, 88, 130); 
+    background-color:rgb(244 246 248);
+}
+.CARD-TITLE1{
+    /* background-color: aqua; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* color: red; */
+    text-align: left;
+    font-size: large;
+    font-family:AlQalam Amjad Alvi;
+}
+.paragraf{
+    /* background-color: bisque; */
+    font-size: 17px;
+    text-align: justify;
+}
+.ROW1{
+    /* background-color: rgb(139, 40, 40); */
+    padding: 50px;
+}
+a{
+    color: red;
+}
+
+/* contect */
+.BROCKWAY{
+    padding: 8%;
+    background-color:#e7eef3;
+}
+.content{
+    padding: 50px;
+    background-color:#f4f6f8;
+}
+.BTN1{
+    padding: 5px 20px;
+    font-size: x-large;
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    color: black;
+    background-color: white;
+    border: 1px solid red;
+    /* border-radius: 0; */
+    transition: .5ss;
+}
+.BTN1:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid rgb(212, 0, 0);
+}
+/* fotter */
+
+.ROW3{
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+    height: 280px;
+    background-color: rgb(15, 77, 107);
+}
+.ROW2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:white;
+}
+.fotter{
+    font-size: 20px;
+    color:rgb(15, 77, 107);
+}

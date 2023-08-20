@@ -1,0 +1,116 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(15, 77, 107);
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 14px 16px ;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+li a:hover{
+    background-color:blue;
+}
+.section1{
+    padding-top: 150px;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    background-image: url(23.webp);
+    /* background-attachment: fixed; */
+    height: 600px;
+}
+.section1 h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+.s2p1{
+    padding: 50px;
+    /* background-color: aqua; */
+}
+/* .s2p1 img{
+    
+    width: 350px;
+    height: 350pxpx;
+} */
+
+img{
+    background-color:#f4f6f8;
+    padding-right:  20px;
+    padding-left:  20px;
+    padding-top:  20px;
+    margin-top: 50px;
+}
+.CRDBDY{
+    background-color:#f4f6f8;
+}
+h5{
+    counter-reset: rgb(15 77 107);
+    font-size: 36px;
+    text-align: center;
+}
+p{
+    color: rgb(15 77 107);
+    text-align: justify;
+    padding-right:  20px;
+    padding-left:  20px;
+    padding-bottom:  20px;
+}
+ /* contect */
+ .BROCKWAY{
+    padding: 8%;
+    background-color:#e7eef3;
+}
+.content{
+    padding: 50px;
+    background-color:#f4f6f8;
+}
+.BTN1{
+    padding: 5px 20px;
+    font-size: x-large;
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    color: black;
+    background-color: white;
+    border: 1px solid red;
+    /* border-radius: 0; */
+    transition: .5ss;
+}
+.BTN1:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid rgb(212, 0, 0);
+}
+/* fotter */
+
+.ROW3{
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+    height: 280px;
+    background-color: rgb(15, 77, 107);
+}
+.ROW2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:white;
+}
+.fotter{
+    font-size: 20px;
+    color:rgb(15, 77, 107);
+}
+h5{
+    font-size: 20px;
+}
